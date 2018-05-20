@@ -4,7 +4,7 @@
 #include "Declar.h"
 void thr_Process(Player* pl, std::vector<DeadPlayer*>* DeadArr,std::vector<Enemy*>* enArr, std::vector<Spawner*>* spArr, Data* data)
 {
-	int SpawnChance = 10;
+	int SpawnChance = 7;
 	int MaxStopTime = 123;
 	int MinStopTime = 20;
 	while (gl_SystemSignal & m_SIGNAL_GAME_START)
